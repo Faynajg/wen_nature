@@ -4,127 +4,131 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Michroma&family=Special+Elite&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   </head>
   <body>
     <header>
         <!--barra de navegacion-->
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#">Features</a>
-                  <a class="nav-link" href="#">Pricing</a>
-                  <a class="nav-link disabled">Disabled</a>
+        <nav class="navbar navbar-expand-lg bg-success  px-4  ">
+            <div class="container-fluid ">
+                <img  src="/imagenes/logo.png" alt=""  >        
+              <div class="collapse navbar-collapse nabvar_container justify-content-end " id="navbarNavAltMarkup">
+                <div class="navbar-nav px-5 ">
+                  <a class="nav-link" aria-current="page" href="#">INICIO</a>
+                  <a class="nav-link" href="#">COMUNIDAD</a>
+                  <a class="nav-link" href="#">ACTIVIDADES</a>
+                  <a class="nav-link">SERVICIOS</a>
+                  <a class="nav-link">SOBRE NOSOTROS</a>
+                  <a class="nav-link">CONTACTO</a>
                 </div>
               </div>
             </div>
           </nav>
         <!--cuidemos naturaleza-->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-md-6">
+        <div class="container-fluid naturaleza_container d-flex justify-content-center d-flex align-items-center  ps-3 ">
+            <div class="row d-flex align-items-center">                                                                               
+                <div class="col-12 col-md-6 ">
                     <h1>CUIDEMOS NATURALEZA</h1>
                     <p>¿Por qué no cuidar de la naturaleza como se merece?</p>
-                    <button>Saber más</button>
+                    <button type="button" class="btn btn-success ">Saber Más</button>
                 </div>
-                <div class="col-12 col-md-6">
-                    <img src="" alt="">
+                <div class="col-12 col-md-6 d-flex align-items-center justify-content-center px-3">
+                    <img src="/imagenes/eco2.png" alt="">
                 </div>
             </div>
         </div>
         <!--Comunidad Juntos-->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <img src="" alt="">
+        <div class="container-fluid comunidad_container ps-5 d-flex justify-content-center ">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-12 col-md-6 ">
+                    <img src="/imagenes/acampadda2.jpg" alt="">
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 px-5 ">
                     <h3>UNA COMUNIDAD JUNTOS</h3>
-                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                        Consectetur sequi saepe quasi aut quaerat libero corrupti
-                         maxime assumenda, accusamus ab repellat nihil laudantium 
+                      <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. 
+                        Consectetur sequi saepe quasi aut quaerat libero <br> corrupti
+                         maxime assumenda, accusamus ab repellat nihil <br> laudantium 
                          quisquam atque ratione, id exercitationem nobis. Dolorum.
                         </p>
                       <hr>
                       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                        Necessitatibus doloribus vel blanditiis temporibus. Ipsa
+                        Necessitatibus doloribus vel blanditiis <br> temporibus. Ipsa
                         neque sequi natus nisi suscipit magnam aperiam repellendus?
-                        Mollitia temporibus est, obcaecati rem doloremque libero veniam?
+                        Mollitia temporibus est.
                     </p>
                   
                 </div>
             </div>
         </div>
         <!--cards,que ofrece la naturaleza-->
-        <div class="container-fluid">
-            <div class="row">
+        <div class="container-fluid d-flex justify-content-center cards_container">
+            <div class="row align-items-center text-center img_cards_container_full">
                 <h2>¿QUÉ NOS OFRECE LA NATURALEZA</h2>
-                <div class="col-12 col-md-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                <div class="col-12 col-md-3 ">
+                    <div class="card border border-success border border-start-0 border-top-0 my-2" style="width: 18rem;">
+                        <img src="/imagenes/pinguino.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title">LA FAUNA</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                          <a href="#" class="btn btn-success">SABER MÁS</a>
                         </div>
                       </div>
                 </div>
                 <div class="col-12 col-md-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                    <div class="card border border-success border border-start-0 border-top-0 my-2" style="width: 18rem;">
+                        <img src="/imagenes/sembrando.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title">LA FLORA</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                          <a href="#" class="btn btn-success">SABER MÁS</a>
                         </div>
                       </div>   
                 </div>
                 <div class="col-12 col-md-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                    <div class="card border border-success border border-start-0 border-top-0 my-2" style="width: 18rem;">
+                        <img src="/imagenes/aventuras1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title">GRANDES AVENTURAS</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                          <a href="#" class="btn btn-success">SABER MÁS</a>
                         </div>
                       </div>  
                 </div>
                 <div class="col-12 col-md-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                    <div class="card border border-success  border border-start-0 border-top-0 my-2" style="width: 18rem;">
+                        <img src="/imagenes/inspriracion.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title">INSPIRACIÓN</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                          <a href="#" class="btn btn-success">SABER MÁS</a>
                         </div>
                       </div>
                 </div>
             </div>
         </div>
         <!--que ofrecemos-->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-md-4">
-                    <h4>APRENDER A RECICLAR
+        <div class="container-fluid ofrecemos_brag  text-center d-flex justify-content-center align-items-center">
+            <div class="row d-flex align-items-end justify-content-end ">
+              <h2 class="p-5 ">¿QUÉ TE OFRECEMOS?</h2>
+                <div class="col-12 col-md-4 ">            
+                    <h4>APRENDER A RECICLAR</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                             Ducimus sapiente voluptates vitae. Ipsam eius fuga
-                              molestias praesentium mollitia, soluta ex et voluptate
-                               minima neque possimus repellat reprehenderit atque?
+                             Ducimus sapiente voluptates vitae.  Ipsam eius fuga
+                              molestias praesentium mollitia,  soluta ex et voluptate
+                               minima neque possimus repellat  reprehenderit atque?
                                 Nam, inventore!
                             </p>
                     </h4>
                 </div>
-                <div class="col-12 col-md-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-droplet" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
-                        <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z"/>
-                      </svg>
+                <div class="col-12 col-md-4 svg_container">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-droplet" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
+                    <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z"/>
+                  </svg>
                       <h4>AHORRAMOS AGUA</h4>
                       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                          Consectetur corporis adipisci soluta laborum autem hic quia!
@@ -132,7 +136,7 @@
                           molestias magni omnis commodi, ratione vitae quidem porro.
                         </p>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 svg_container">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
                         <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"/>
                       </svg>
@@ -146,50 +150,61 @@
             </div>
         </div>
         <!--quien somos-->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <h4>TE PREGUNTARÁS QUIÉNES SOMOS</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                         Eligendi natus est rerum quae aspernatur, incidunt 
-                         suscipit cum culpa reprehenderit numquam, repudiandae
-                          quisquam nisi obcaecati et nostrum alias, quia adipisci fuga.
+        <div class="container-fluid  somos_container d-flex justify-content-center align-items-center">
+            <div class="row  d-flex align-items-center ">
+                <div class="col-12 col-md-6 text-center ">
+                    <h4>TE PREGUNTARÁS QUIÉNES SOMOS...</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur  adipisicing elit. <br>
+                         Eligendi natus est rerum quae aspernatur,  incidunt 
+                         suscipit cum culpa reprehenderit  numquam, repudiandae
+                          quisquam nisi <br> obcaecati et nostrum alias,  quia adipisci fuga.
+                      
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
-                    <img src="" alt="">
+                    <img src="/imagenes/ecodefi.jpg" alt="">
+                    
                 </div>
             </div>
         </div>
         <!--contactanos-->
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6">
+        <div class="container-fluid container_full p-5">
+          <div class="container d-flex justify-content-center border border-success p-5 container_contactanos">          
+            <div class="row  d-flex align-items-center ps-5">
+                <div class="col-12 col-md-6 ">
                     <h3>ES EL MOMENTO ¡CONTACTANOS!</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="e-mail"></a>
+                <div class="container_label">
+                    <label for="">correo electronico</label>
+                    <input type="text"placeholder="correo electronico">
+                    <button type="button" class="btn btn-success ">Enviar</button>
+                
+                </div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <img src="" alt="">
+                    <img src="imagenes/MOVIL6.jpg " alt="">
                 </div>
             </div>
         </div>
+        </div>
+        
+
         <!--footer-->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-md-3">
+        <div class="container-fluid footer_container d-flex align-items-center justify-content-around p-5">
+            <div class="row ps-5">
+                <div class="col-12 col-md-3 ps-5">
                     <h5>NATURE</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-3 ps-5">
                     <h5>MÁS SERVICIOS</h5>
                     <p>Lorem Ipsum  <br> Lorem Ipsum <br> Lorem Ipsum </p>                                 
                 </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-3 ps-5">
                     <h5>NUESTRA CAMPAÑA</h5>
                     <p>Lorem Ipsum  <br> Lorem Ipsum <br> Lorem Ipsum</p>                    
                 </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-3 ps-5">
                     <h5>REDES SOCIALES</h5>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
                         <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>

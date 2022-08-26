@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nabvar_container a{
+    color: white;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Michroma', sans-serif;
+    font-family: 'Special Elite', cursive;
+}
+.naturaleza_container {
+    height: 40rem;
+    
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Michroma', sans-serif;
+    font-family: 'Special Elite', cursive;
+}
+.naturaleza_container button:hover{
+    transform: scale(1.2);
+ 
+}
+.comunidad_container {
+    height: 60rem;
+}
+.comunidad_container img {
+    width: 80%;
+}
+.cards_container {
+    height: 50rem;
+    width: 7rem;
+}
+.img_cards_container_full {
+    width: 80%;
+}
+
+    
+.ofrecemos_brag {
+    background: green;
+    height: 40rem;
+    
+}
+.ofrecemos_brag img {
+    width: 100%;
+}
+
+.ofrecemos_brag h4 {
+ color: white;
+}
+
+.ofrecemos_brag div svg {
+    width: 100%;
+    
+}
+.svg_container svg{
+   height:5rem ;
+}
+.somos_container img {
+   width:100%;
+}
+.somos_container {
+    height: 50rem;
+  
+}
+.footer_container {
+    background:#DCE775;
+    height: 15rem;
+}
+.container_full{
+    height: 50rem;
+   background: #DCE775;
+}
+.container_contactanos{
+    background: #52AD08;
+    height: 40rem;
+}
