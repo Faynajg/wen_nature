@@ -31,13 +31,17 @@ h1,h2,h3,h4,h5{
     height: 50rem;
     width: 7rem;
 }
+.cards_container a{
+    text-decoration: none;
+    color: green;
+}
 .img_cards_container_full {
     width: 80%;
 }
 
     
 .ofrecemos_brag {
-    background: green;
+    background:#8BC34A;
     height: 40rem;
     
 }
@@ -50,25 +54,29 @@ h1,h2,h3,h4,h5{
 }
 
 .ofrecemos_brag div svg {
-    width: 100%;
-    
+    width: 80%;
+   margin: 5rem;
 }
-.svg_container svg{
+.svg_container svg {
    height:5rem ;
+   display: flex;
+   justify-content: center;
 }
 .somos_container img {
    width:100%;
 }
 .somos_container {
-    height: 50rem;
+    height: 55rem;
   
 }
+
 .footer_container {
     background:#DCE775;
     height: 15rem;
 }
 .container_full{
     height: 50rem;
+    width: 40rem;
    background: #DCE775;
 }
 .container_contactanos{
